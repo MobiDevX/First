@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">First</string>
+    <string name="text">Hello World!</string>
+    <string name="hint_text"> 100 </string>
+    <string name="one_text">Аршин</string>
+    <string name="result_text"> Результат </string>
+    <string name="b_text">ОК</string>
+
+</resources>
