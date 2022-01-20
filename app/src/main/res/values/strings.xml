@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">First</string>
     <string name="text">Hello World!</string>
-    <string name="hint_text"> 100 </string>
+    <string name="hint_text"> Введите число </string>
     <string name="one_text">Аршин</string>
     <string name="result_text"> Результат </string>
     <string name="b_text">ОК</string>
+    <string name="rb_text1">аршин</string>
+    <string name="rb_text2">верста</string>
+    <string name="rb_text3">сажень</string>
+    <string name="rb_text4">локоть</string>
+    <string name="rb_text5">пядь</string>
 
 </resources>
