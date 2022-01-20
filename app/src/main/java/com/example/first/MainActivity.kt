@@ -23,12 +23,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private val textWatcher = object : TextWatcher {
-        override fun afterTextChanged(s: Editable?) {
+        override fun afterTextChanged(str: Editable?) {
         }
-        override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+        override fun beforeTextChanged(str: CharSequence?, start: Int, count: Int, after: Int) {
         }
-        override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-            result.text = (s.toString().toDouble()*.7112).toString()
+        override fun onTextChanged(str: CharSequence?, start: Int, before: Int, count: Int) {
+            result.text = (str.toString().toDouble()*.7112).toString()
         }
     }
 }
