@@ -34,6 +34,10 @@ class MainActivity : AppCompatActivity() {
             val two = one.toDouble() * 0.7112
             intent.putExtra(EXTRA_ONE, one)
             intent.putExtra(EXTRA_TWO, two)
+/*            val intent = Intent(ACTION_SEND)
+            intent.type = "text/plain"
+            intent.putExtra(EXTRA_SUBJECT, "Thanks!")
+            intent.putExtra(EXTRA_TEXT, " Delicious! Tip = " + java.lang.Double.toString(100.0))*/
             startActivity(intent)
         }
     }
