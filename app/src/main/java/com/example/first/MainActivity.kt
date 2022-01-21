@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         // Добавление слушателя для редактируемого поля
         editText.addTextChangedListener(textWatcher)
 
+        // Добавление кнопки для вызова NextActivity
         button = findViewById(R.id.button)
         button.setOnClickListener {
             // Вызов NextActivity
