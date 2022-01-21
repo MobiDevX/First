@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
             val two = one.toDouble() * 0.7112
             intent.putExtra(EXTRA_ONE, one)
             intent.putExtra(EXTRA_TWO, two)
+            // Вызов неявного интента:
 /*            val intent = Intent(ACTION_SEND)
             intent.type = "text/plain"
             intent.putExtra(EXTRA_SUBJECT, "Thanks!")
